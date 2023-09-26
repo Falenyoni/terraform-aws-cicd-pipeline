@@ -90,7 +90,7 @@ resource "aws_codepipeline" "tf_cicd_pipeline" {
       version = "1"
       input_artifacts = ["tf-code"]
       configuration = {
-        ProjectName = "tf-cicd-plan"
+        ProjectName = "tf_cicd_plan"
       }
     }
   }
@@ -105,7 +105,7 @@ resource "aws_codepipeline" "tf_cicd_pipeline" {
       version = "1"
       input_artifacts = ["tf-code"]
       configuration = {
-        ProjectName = "tf-cicd-apply"
+        ProjectName = "tf_cicd_apply"
       }
     }
   }
