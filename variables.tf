@@ -15,5 +15,5 @@ variable "vpc_cidr" {
 variable "vpc_name" {
   description = "Value of the name for the VPC"
   type        = string
-  default     = "MyTestVPC"
+  default     = "MyTestVPC2"
 }
